@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.header {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 32px;
+  font-style: italic;
+  color: #fff;
+}
+.image {
+  height: 280px;
+  width: 590px;
+}
+.speed-header {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #cbd5e1;
+}
+.increase-btn {
+  padding: 10px 15px;
+  font-family: 'Roboto';
+  outline: none;
+  border-width: 0;
+  background-color: #0b69ff;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.brake-btn {
+  padding: 10px 15px;
+  font-family: 'Roboto';
+  outline: none;
+  border-width: 2px;
+  border-style: outline;
+  border-color: #94a3b8;
+  background-color: transparent;
+  color: #94a3b8;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.increase-btn:hover {
+  cursor: pointer;
+}
+.brake-btn {
+  cursor: pointer;
+}
